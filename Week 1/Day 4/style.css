@@ -20,7 +20,7 @@ h2 {font-size: 1.25rem;
     text-transform: uppercase;
     border-top: 2px solid rgb(197, 197, 197);
     border-bottom: 2px solid rgb(197, 197, 197);
-    padding: 1rem 0;
+    padding: 2rem 0;
     margin-bottom: 2rem;
     margin-top: 2rem;
 
@@ -29,7 +29,6 @@ h2 {font-size: 1.25rem;
 h3 {font-size: 1rem;
     text-transform: uppercase;
     color: #F5B041;
-
 }
 
 p {line-height: 1.5;
@@ -49,6 +48,7 @@ li + li {
 a {
     text-decoration: none;
     color:inherit;
+    font-size: 1.0rem;
 }
 
 ul {
@@ -89,7 +89,7 @@ ul {
 .skills > ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: 3rem;
 }
 
 .timeline .event + .event {
@@ -115,6 +115,16 @@ ul {
 
 .resume {
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 50% 2fr;
     grid-gap: 4rem;
+}
+
+.about {
+    text-align: justify;
+}
+.socials i{
+    font-size: 2.0rem;
+    margin-right: 1.8rem;
+    margin-top: 0.5rem;
+
 }
