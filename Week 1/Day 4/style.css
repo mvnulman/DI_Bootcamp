@@ -7,13 +7,8 @@
     color:rgb(37, 37, 37)
 }
 
-#profile img {
-    width:100px;
-    height:100px;
-}
-
 h1 {font-size: 2rem;
-
+    text-transform: uppercase;
 }
 
 h2 {font-size: 1.27rem;
@@ -40,4 +35,37 @@ section + section {
 
 a {
     text-decoration: none;
+    color:inherit;
 }
+
+/* Tags adjusments starts here  */
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 700px;
+    
+}
+
+.profile p {
+    margin-bottom: 1rem;
+    color:  lightslategrey;
+    font-weight: 500;
+    font-size: 1.27rem;
+}
+.contact ul {
+    margin-top: -2rem;
+}
+
+.contact li {
+    text-align: right;
+    text-transform: uppercase;
+    padding: 1rem;
+    color:  lightslategrey;
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+
