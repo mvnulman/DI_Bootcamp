@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 75%;
+    margin: auto;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 123px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.navbar ul li a {
+    text-decoration: underline;
+    color: azure;
+    text-transform: uppercase;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-35%) translateX(-25%);
+    text-align: center;
+    color: azure;
+}
+
+.content h1 {
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.content p {
+    margin: 25px auto;
+    font-weight: 100;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+.ironman {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-35%) translateX(155%);
+}
+
+.socials {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    display: inline-flex;
+}
+
+.socials i {
+    color: white;
+    text-decoration: none;
+    width: 75px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.socials li {
+    list-style-type: none;
+
+}
