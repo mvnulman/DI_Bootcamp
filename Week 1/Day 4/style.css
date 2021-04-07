@@ -9,31 +9,32 @@
 }
 
 body {
-    padding:1rem;
+    padding: 1rem;
 }
 
 h1 {font-size: 2rem;
     text-transform: uppercase;
 }
 
-h2 {font-size: 1.27rem;
+h2 {font-size: 1.25rem;
     text-transform: uppercase;
     border-top: 2px solid rgb(197, 197, 197);
     border-bottom: 2px solid rgb(197, 197, 197);
     padding: 1rem 0;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 
 }
 
-h3 {font-size: 1.0rem;
+h3 {font-size: 1rem;
     text-transform: uppercase;
-    margin-bottom: 0.5rem;
     color: #F5B041;
 
 }
 
-p {color:rgb(77, 77, 77);
-    line-height: 1.7;
+p {line-height: 1.5;
+    color:rgb(77, 77, 77);
+    ;
 
 }
 
@@ -89,4 +90,31 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+}
+
+.timeline .event + .event {
+    padding-top: 1rem;
+}
+
+.timeline .event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+
+.timeline .content {
+    border-left: 1px solid rgb(197, 197, 197);
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.content > h3 + p {
+    margin-bottom: 1rem;
+    color: #333
+
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 4rem;
 }
