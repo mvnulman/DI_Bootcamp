@@ -1,5 +1,43 @@
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(37, 37, 37)
+}
+
 #profile img {
     width:100px;
     height:100px;
+}
 
+h1 {font-size: 2rem;
+
+}
+
+h2 {font-size: 1.27rem;
+    text-transform: uppercase;
+    border-top: 2px solid rgb(197, 197, 197);
+    border-bottom: 2px solid rgb(197, 197, 197);
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+
+}
+
+h3 {font-size: 1.2rem;
+
+}
+
+p {color:rgb(77, 77, 77);
+    line-height: 1.7;
+
+}
+
+section + section {
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
 }
