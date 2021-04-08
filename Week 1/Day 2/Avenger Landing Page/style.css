@@ -62,11 +62,12 @@
     font-size: 22px;
 }
 
-.ironman {
+.image img{
     width: 500px;
+    height: auto;
     position: absolute;
-    top: 50%;
-    transform: translateY(-35%) translateX(155%);
+    top: 35%;
+    right: 7%;
 }
 
 .socials {
