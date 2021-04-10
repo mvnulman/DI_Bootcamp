@@ -7,9 +7,80 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {display:flex;
+body {
+    display:flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: url(background-image2.png);
+}
 
+.container{
+    max-width: 700px;
+    width: 100%;
+    background:#fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight:500
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+    margin: 10px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color:#707070;
+}
+
+form .button {
+    height:45px;
+    margin: 25px 0;
+}
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:#e2a535;
+    border-radius: 5px;
+    color: white;
+    letter-spacing:1px
+}
+
+form .button input:hover{
+    background-color: #ce8602
 }
