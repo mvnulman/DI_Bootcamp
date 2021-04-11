@@ -1,6 +1,6 @@
 # The Avenger Landing Page - Iron Man
 
-<img src="iroanman.png">
+<img src="ironman.PNG">
 
 ## 🚀 Tecnologies
 This project was developed using the following technologies:
