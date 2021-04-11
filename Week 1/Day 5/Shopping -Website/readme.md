@@ -2,6 +2,11 @@
 
 Screenshots:
 
+<img src="screenshot1.jpg">
+<img src="screenshot2.jpg">
+<img src="screenshot3.jpg">
+<img src="screenshot4.jpg">
+
 
 ## 🚀 Tecnologies
 This project was developed using the following technologies:
