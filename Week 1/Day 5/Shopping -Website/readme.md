@@ -2,10 +2,10 @@
 
 Screenshots:
 
-<img src="screenshot1.jpg">
-<img src="screenshot2.jpg">
-<img src="screenshot3.jpg">
-<img src="screenshot4.jpg">
+<img src="screenshot1.PNG">
+<img src="screenshot2.PNG">
+<img src="screenshot3.PNG">
+<img src="screenshot4.PNG">
 
 
 ## 🚀 Tecnologies
