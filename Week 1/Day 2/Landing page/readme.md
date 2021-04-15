@@ -1,6 +1,6 @@
 # Landing Page (Without Bootstrap4)
 
-![Getting Started](screenshot.PNG)
+![screenshot](https://user-images.githubusercontent.com/63374582/114863608-9a3be980-9df8-11eb-9572-64436c5cea21.png)
 
 ### 🚀 Tecnologies
 This project was developed using the following technologies:
