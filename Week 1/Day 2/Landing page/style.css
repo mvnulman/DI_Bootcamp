@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display:flex;
+    background: #f8f9fa;
+    padding: 10px 20%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+}
+
+.logo {
+    font-size: 19px;
+    color: rgb(109, 107, 107);
+    font-weight: 300;
+}
+
+.button1 {
+    height: 50px;
+    width: 85px;
+    background: #007cff;
+    cursor: pointer;
+    color: white;
+    font-weight: 470;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+button:hover {
+    background-color: #0870df;
+}
+
+.background {
+    display: flex;
+    background: black;
+    height: 850px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.background .img {
+    background: url(background.jpg);
+    height: 850px;
+    width: 100%;
+    position: absolute;    
+    background-size: cover;
+}
+
+.background .overlay {
+    height: 850px;
+    width: 100%;
+    opacity: 0.3;
+    background: linear-gradient(to bottom,black, black);
+    position: absolute;
+}
+
+.img-text {
+    z-index: 2;
+    color: white;
+    font-weight: 700;
+    font-size: 30px; 
+    text-align: center;      
+}
+
+.form {
+    z-index: 2;
+    margin-top: 150px;
+    position: absolute;
+    /* border: 1px solid #000; */
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+input[type=text] {
+    font-family: Open Sans;
+    font-size: 18px;
+    height: 50px;
+    width: 400px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.button2 {
+    height: 50px;
+    width: 100px;
+    background: #007cff;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.button2, input[type=text] {
+    margin: 0px 7px;
+}
+
+.footercontent {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    background: #f8f9fa;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 200px;
+    
+}
+
+.text-1, .text-3{
+    /* border: 3px solid rgb(255, 0, 0); */
+    text-align: center;
+    padding: 30px 10px;
+    height: 125px;
+    width: 400px;
+    font-size: 18px;
+}
+
+
+.footerecontent, p {
+    text-align: center;
+    font-weight: 300px;
+    color: rgb(88, 88, 88);
+    
+}
+
+.footercontent h2{
+    font-size: 22px;
+    
+}
+
+.footercontent i {
+    position: relative;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    color: #1c7efe;
+    font-size: 100px;
+    bottom: 195px;

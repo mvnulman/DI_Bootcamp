@@ -1,0 +1,39 @@
+
+
+.container {
+    border: 5px solid #E75040;
+    justify-content:space-between;
+    align-content: space-around;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width:50%;
+}
+
+.item1 {
+    border: 1px solid #ccc;
+    color: black;
+    background:#87D1EE;
+    height: 75px;
+    width:100%;
+}
+
+.item2 {
+    border: 1px solid #ccc;
+    color: #000000;
+    background:#87D1EE;
+    height: 200px;
+    width:700px;
+    margin:35px;
+    width: 60%;
+
+}
+
+.item3 {
+    border: 1px solid #ccc;
+    color: black;
+    background:#87D1EE;
+    height: 75px;
+    width:100%;
+}

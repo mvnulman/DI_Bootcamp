@@ -1,0 +1,32 @@
+
+
+.grid {
+    border: 3px solid #000000;
+    display: grid;
+    max-width:35%;
+    height: 800px;
+    padding: 35px ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 15px;
+}
+
+.red {
+    border: 2px solid rgb(0, 0, 0);
+    background:#EA9999;
+}
+
+.blue {
+    border: 2px solid rgb(0, 0, 0);
+    background:#9FC5F8;
+    grid-column: span 2;
+
+}
+
+.yellow {
+    border: 2px solid rgb(0, 0, 0);
+    background:#fff132;
+    grid-column: span 3;
+
+}

@@ -1,0 +1,27 @@
+
+
+.container {
+    border: 5px solid #E75040;
+    display: flex;
+    padding: 10px;
+    max-width:50%;
+}
+
+.item1 {
+    background:#909BED;
+    height: 50px;
+    flex: 1;
+}
+
+.item2 {
+    background:#87D1EE;
+    height: 50px;
+    flex: 2;
+
+}
+
+.item3 {
+    background:#E75040;
+    height: 50px;
+    flex: 2;
+}

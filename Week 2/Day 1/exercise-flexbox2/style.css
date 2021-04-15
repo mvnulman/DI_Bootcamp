@@ -1,0 +1,34 @@
+
+
+.container {
+    border: 5px solid #E75040;
+    align-items:fl;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width:50%;
+}
+
+.item1 {
+    color: black;
+    background:#87D1EE;
+    height: 125px;
+    width:100%;
+}
+
+.item2 {
+    color: #000000;
+    background:#87D1EE;
+    height: 200px;
+    margin:5px 0;
+    width: 30%;
+    align-self: flex-end;
+
+}
+
+.item3 {
+    color: black;
+    background:#87D1EE;
+    height: 125px;
+    width:100%;
+}

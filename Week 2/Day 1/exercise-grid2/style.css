@@ -1,0 +1,60 @@
+.grid {
+    border: 1px solid #000000;
+    background-color: gainsboro;
+    display:grid;
+    grid-gap: 10px 50px;
+    grid-template-rows: 1fr 4fr 2fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "header header header header"
+    "main article article article"
+    "main article article article"
+    "footer footer footer footer"
+}
+
+div {
+    text-align: center;
+}
+.green{
+    grid-area: header;
+    background-color: #27c500;
+    color: white;
+}
+
+.purple{
+    grid-area: main;
+    background-color: purple;
+    color: white;
+}
+
+.pink {
+    grid-area: article;
+    background: pink;
+    color: white;
+}
+
+.blue {
+    grid-area: footer;
+    background: blue;
+    color: white;
+}
+.blue {
+    grid-area: footer;
+    background: blue;
+    color: white;
+}
+.blue {
+    grid-area: footer;
+    background: blue;
+    color: white;
+}
+.blue {
+    grid-area: footer;
+    background: blue;
+    color: white;
+}
+.blue {
+    grid-area: footer;
+    background: blue;
+    color: white;
+}
