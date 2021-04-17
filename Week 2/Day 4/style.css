@@ -1,6 +1,7 @@
+
 .col-lg-2 {
     background-color: #F5F5F5;
-    margin: 20px 30px;
+    margin: auto 30px;
     padding: 20px 20px;
     border-radius:5px;
     width: 100%;
@@ -19,13 +20,15 @@
     width: 100%;
     margin: 15px 10px 0px 0px;
 }
-.form-control {
-    width:px
-}
 
+.blockquote, .blockquote-footer {
+    border-left: 5px solid #e0e0e0;
+    padding-left:10px;
+}
 
 .col-lg-7 {
     margin: 20px 30px;
     padding: 20px 20px;
     height: 100%;
 }
+
