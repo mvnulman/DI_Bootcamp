@@ -1,0 +1,35 @@
+* {
+    /* box-sizing: border-box;
+    margin: 1px; */
+}
+
+.flexbox-container { 
+    display: flex;
+    flex-direction:row;
+    /* border: 3px solid #000000; */
+    height: 100%;
+    justify-content: center;
+  }
+
+.white-color {
+    background: #ffffff;
+    height:75px;
+    width:75px;
+    border: 1px solid rgb(15, 2, 2) transparent;
+    /* margin: 1px; */
+}
+.red-color1{
+    background: #E67F7E;
+    height:75px;
+    width:75px;
+    border: 1px solid #ccc transparent;
+    /* margin: 1px; */
+}
+
+.red-color2{
+    background: #D83E3B;
+    height:75px;
+    border: 1px solid #ccc transparent;
+    width:75px;
+    /* margin: 1px; */
+}

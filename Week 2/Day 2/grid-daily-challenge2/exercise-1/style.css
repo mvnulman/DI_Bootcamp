@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 2;
+}
+
+.flexbox-container { 
+    display: flex;
+    flex-direction:row;
+    grid-gap: 1px;
+    height: 100%;
+    justify-content: center;
+  }
+
+.color1 {
+    background: #FF7004;
+    height:75px;
+    width:75px;
+    margin: 3px;
+}
+.color2 {
+    background: #FFB26D;
+    height:75px;
+    width:75px;
+    margin: 3px;
+}
+.color3 {
+    background: #A74A01;
+    height:75px;
+    width:75px;
+    margin: 3px;
+}
