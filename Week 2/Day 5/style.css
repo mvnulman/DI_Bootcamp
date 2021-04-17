@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Sen', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin: 20px 10px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.fade {
+    background: #B3B2B8;
+    /* border: 5px solid #ccc; */
+    width: 350px;
+    height: 200px;
+    margin: 75px 10px;
+    color: rgb(255, 255, 255);
+    opacity:0.5;
+}
+
+.fade:hover
+{
+        opacity:1;
+}
