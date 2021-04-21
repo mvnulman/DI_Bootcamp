@@ -5,7 +5,7 @@
 
 // 1- Remove Banana from the array.
 // let fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
-// fruits.shift();
+// fruits.shift("Banana");
 // console.log(fruits);
 
 //------------------------------------------------------------
