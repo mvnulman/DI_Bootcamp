@@ -8,16 +8,16 @@
 // IF they say they are 18, respond with: "Congratulations on your first year of driving. Enjoy the ride!
 // IF they say they are over 18, respond with: "Powering On. Enjoy the ride!"
 
-let age = parseInt(prompt("how are you"));
-console.log(typeof(age));
+// let age = parseInt(prompt("how are you"));
+// console.log(typeof(age));
 
-if (age > 18) {
-    alert("Powering On. Enjoy the ride!");
-} else if (age === 18) {
-    alert("Congratulations on your first year of driving. Enjoy the ride!");
-} else {
-    alert("Sorry, you are too young to drive this car. Powering off")
-}
+// if (age > 18) {
+//     alert("Powering On. Enjoy the ride!");
+// } else if (age === 18) {
+//     alert("Congratulations on your first year of driving. Enjoy the ride!");
+// } else {
+//     alert("Sorry, you are too young to drive this car. Powering off")
+// }
 
 
 
