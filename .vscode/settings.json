@@ -2,5 +2,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[html]": {
         "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
     }
 }
