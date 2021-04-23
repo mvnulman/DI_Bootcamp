@@ -4,9 +4,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body {
+/* body {
     height: 2000px;
-}
+} */
 
 .navbar-nav  li{
     padding-left:30px;
@@ -18,8 +18,16 @@ body {
     padding-left: 30px;
 }
 
-.btn-primary {
+.btn-header{
     margin-left: 30px;
+    background-color: rgb(235, 23, 87);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    height: 35px;
 }
 
 h1 { 
