@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-![Project Image](./screenshot.PNG)
+![screenshot](https://user-images.githubusercontent.com/63374582/116685204-a14b2600-a9ba-11eb-9400-ec386a93d089.png)
 
 ---
 
