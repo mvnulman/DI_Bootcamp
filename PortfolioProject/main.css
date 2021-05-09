@@ -65,3 +65,17 @@ p {
     text-decoration: none;
     color: rgb(128, 128, 128);
 } */
+
+/* Portfolio DIV filter */
+
+
+button.btn {
+    background: rgb(197, 197, 197);
+    color: white;
+    font-weight: 600;
+}
+
+  button.btn:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
