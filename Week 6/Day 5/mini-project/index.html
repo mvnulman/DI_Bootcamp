@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Mini Project - Quotes generator</title>
+</head>
+<body>
+    <div id="form-container">
+        <form id = "form" onsubmit="return false">
+            <div id="new-quotes-container">
+              <label for="author"><b>Author:</b></label>
+              <input type="text" placeholder="Add new author here" name="addauthor" id="addauthor" >
+          
+              <label for="quote"><b>Quote:</b></label>
+              <input type="text" placeholder="Add new quote here" name="addquote" id="addquote" >
+              
+              <button type="submit" id="add-quotes-button">Register new quote
+              </button>
+            </div>
+          </form>
+
+    <section class="quote-container" id="quote-container">
+        <!-- Quotes here-->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Generate your quote pressing the button bellow!</span>
+            <span id="author">Author's name</span>
+        </div>
+
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="like-button" id="likebtn" tittle="Like this quote!">
+                <i class="far fa-thumbs-up"></i>
+            </button>
+            <button id="new-quote">Generate quote</button>
+        </div> <hr><br>
+
+        <form id ="form-search">
+            <input id = "search-field" type="text" name = "search" placeholder="Search for quotes here...">
+            <button id="search">Search</button>
+            <button id="previous-quote">Previous</button>
+            <button id="next-quote">Next</button>
+
+        </form>
+
+        <br><hr>
+        <button id="btn-info">Display info (1)</button>
+        <button id="btn-info">Display info (2)</button>
+        <button id="btn-info">Display info (3)</button>
+    </section>        
+
+
+    <!-- Script -->
+    <script = src="script.js" ></script>
+</body>
+</html>
