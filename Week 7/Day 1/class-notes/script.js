@@ -183,4 +183,4 @@ const display = (arr) => {
 
 // 3. create a function that get this array as an argument, loop this array and display the values
 // on your webpage.
-
+root.forEach(element => console.log(element))
