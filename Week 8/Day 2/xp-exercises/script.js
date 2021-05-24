@@ -66,4 +66,5 @@ let marioGame = {
 // console.log(marioPrettyPrint)
 //Note* When we want to pretty print our JS object into a JSON object, the third parameter needs to be an number between 1 and 10. The second parameter needs to be null if we don't have one to use as a second parameter.
 
+
 // 3- Use your web inspector to add a breakpoint. Check the values of the JSON object in the debugger.
