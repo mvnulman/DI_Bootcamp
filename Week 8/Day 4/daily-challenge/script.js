@@ -33,7 +33,7 @@ function init() {
         btnDeleteGiphy.addEventListener('click', () =>{
           img.remove();
           if (img.remove = true) {
-            btnDeleteGiphy.style.display = "none"
+            btnDeleteGiphy.remove();
           }
         })
       })
