@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Weather App</h1>
+      <form>
+        <input type="text" placeholder="Search for a city..." autofocus>
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <div class="btn-container">
+    <button id="clear" type="submit"onClick="refreshPage()" >CLEAR SEARCH</button>
+    <div class="mid">
+      <label class="rocker">
+        <input type="checkbox" checked>
+        <span class="switch-left">C°</span>
+        <span class="switch-right">F°</span>
+      </label>
+    </div>
+  </div>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities">
+      </ul>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
