@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+body {
+    background-image: url("https://media.giphy.com/media/UYBDCJjwOd9Re/source.gif");
+    font-family: 'Carrois Gothic SC', sans-serif;
+
+}
+#title {
+    width: 400px;
+    height: 300px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png) center center no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+.wrapper {
+    display: block;
+}
+.container {
+    border: 3px solid yellow;
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    color: cornsilk;
+    text-align: center;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+}
+#spinner {
+    display: none;
+}
+
+
+#name{
+	color: white;
+	font-size: 38px;
+    padding-top: 30px;
+    font-weight: bold;
+	
+}
+
+#height{
+	color: white;
+	font-size: 25px;
+}
+
+#gender{
+	color: white;
+	font-size: 25px;
+}
+
+#byear{
+	color: white;
+	font-size: 25px;
+}
+
+#hworld{
+	color: white;
+	font-size: 25px;
+}
+
+#but {
+    color: black;
+    background: yellow;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    border-style: none;
+    font-weight: bold;
+    border: 5px solid rgb(189, 161, 2);
+}
+
+
+#but:active {
+  background-color: yellow;
+  transform: translateY(4px);
+}
