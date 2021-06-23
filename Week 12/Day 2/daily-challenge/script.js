@@ -6,13 +6,12 @@
 // Use the exported module in a script.js file.
 // In the script.js file declare a variable const b = 5; and use it to output the sum of the imported module + b
 
+const mainJs = require('./main.js')
+
+const a = mainJs.largeNumber
 const b = 5;
 
-const number = require('./main.js')
-
-const c = b + number.largeNumber
-
-console.log(c);
+console.log(a + b);
 
 //--------------------------------------------------------------------------
 
@@ -22,16 +21,16 @@ console.log(c);
 // Also write in a head tag a message like ‘Hi there at the frontend’
 // Your server should run on http://localhost:3000/
 
-// const http = require('http');
+const http = require('http');
 
-// http.createServer(function(req, res) {
-//     res.writeHead(200, {'Content-Type': 'text/html'})
-//     res.write(`My Module is: 361`);
-//     res.write(`<h1>Hi there at the frontend<h1>`);
-//     res.end();
-// }).listen(3000);
+http.createServer(function(req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'})
+    res.write(`My Module is: ${a + b}`);
+    res.write(`<h1>Hi there at the frontend<h1>`);
+    res.end();
+}).listen(3000);
 
-// console.log('server loading...')
+console.log('server started at port 3000...')
 
 //---------------------------------------------------------------------------
 
@@ -50,4 +49,4 @@ http2.createServer(function(req, res) {
     res.end();
 }).listen(8080);
 
-console.log('server loading2...')
+console.log('server started at port 8000...')
