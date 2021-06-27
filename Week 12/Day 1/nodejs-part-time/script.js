@@ -22,7 +22,7 @@
 // How to create a server
 const http = require('http');
 
-const server = http.createServer( ()=> {
+const server = http.createServer(()=> {
     console.log('hello, this is my first server');
 })
 server.listen(3000)
