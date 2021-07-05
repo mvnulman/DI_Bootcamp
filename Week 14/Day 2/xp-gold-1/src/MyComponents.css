@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+
+}
+
+.newStyle {
+    background-color: #282c34;
+    color: white;
+    display: inline;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+}
