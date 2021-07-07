@@ -1,30 +1,75 @@
-import logo from './logo.svg';
-import './App.css';
-import Hello from './Hello';
+import React from 'react';
+import Robots from './components/Robots';
+import SearchBox from './components/SearchBox';
 import 'tachyons';
+// import {robots} from './robots'
 
+class App extends React.Component{
+  constructor(){
+    super();
+    this.state = {
+      name: '',
+      robots: [],
+      searchText: ''
+    }
+    console.log('constructor');
+  }
+  componentDidMount(){
+    console.log('componentDidMount');
+    this.setState({name:'Robots App'});
+    // fetch('https://jsonplaceholder.typicode.com/users')
+    // .then(res => res.json())
+    // .then(users => {
+    //   this.setState({robots:users})
+    // })
+    // .catch(err => {
+    //   console.log(err);
+    // })
+  }
 
-function App() {
+  //
+  handleClick = () => {
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(res => res.json())
+    .then(users => {
+      this.setState({robots:users})
+    })
+    .catch(err => {
+      console.log(err);
+    })
+  }
+  //
+  componentDidUpdate(){
+    console.log('componentDidUpdate');
+  }
 
-  const users = [
-    {name:'Ziv', email:'zivuch@gmail.com', username:'zivuch'},
-    {name:'Marcos', email:'Marcos@gmail.com', username:'MarcosN'},
-    {name:'Lotan', email:'Lotan@gmail.com', username:'Lotan'},
-    {name:'Dan', email:'Dan@gmail.com', username:'DanA'}
-  ];
+  handleChange = (e) =>{
+    console.log(e.target.value);
+    this.setState ({searchText:e.target.value})
+  }
 
+  render(){
+    console.log('render');
+    const {name,robots, searchText} = this.state;
 
-  return (
-    <>
+    const filteredRobots = robots.filter(item => {
+      console.log(item)
+      return item.name.toLowerCase().includes(searchText.toLowerCase())
+    })
 
-      {
-        users.map((item,i)=>{
-          return <Hello key={i} user={item} />
-        })
-      }
+    return (
+      <div className='tc bg-light-gray'>
+        <h1>{name}</h1>
+        <SearchBox clickMe = {this.handleClick} handleChange = {this.handleChange} />
+        {
+          filteredRobots.map((item,i)=>{
+            return <Robots key={i} user={item} />
+          })
+        }
 
-    </>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
