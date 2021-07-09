@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  background: #4e4e4e;
+  min-height: 100vh;
+  color: #e5daff;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.number-inputs {
+  margin-bottom: 20px;
+}
+
+input {
+  font-size: 80px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+input:first-child {
+  margin-right: 20px;
+}
+
+button {
+  margin-top: 75px;
+  width: 120px;
+  margin-left: 10px;
+  padding: 30px ;
+  font-size: 30px;
+  border-radius: 50px;
+  background: #db1759;
+  border: none;
+  margin-bottom: 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  font-size: 150px;
+  color: white;
+}
+
+.option-form {
+  position: relative;
+  top: 20px; 
+  width: 200px;
+  text-align: center;
+}
