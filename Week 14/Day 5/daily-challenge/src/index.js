@@ -49,7 +49,7 @@ function App() {
       </div>
 
       <Select className="option-form" options = {options}/>
-
+      
       <button onClick={calculateTotal}>+</button>
       <button onClick={subtractionNum}>-</button>
       <button onClick={multiplyNum}>X</button>
