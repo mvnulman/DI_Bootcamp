@@ -10,7 +10,7 @@ import img4 from './assets/img4.webp'
 function App() {
   return (
     <>
-      <Carousel className="App">
+      <Carousel>
         <div>
           <img src={img1} />
           <p className="legend">Hong Kong</p>
