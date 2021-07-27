@@ -1,15 +1,14 @@
-export const ADD_ONE = 'ADD_ONE';
-export const MINUS_ONE = 'MINUS_ONE';
 
-
-const addOne = () => {
-    return {
-        type: 'ADD_ONE'
-    }
+export const addOne = () => {
+  console.log('ADD_ONE');
+  return {
+    type: 'ADD_ONE'
+  }
 }
 
-const minusOne = () => {
-    return {
-        type: 'MINUS_ONE'
-    }
+export const minusOne = () => {
+  console.log('MINUS_ONE');
+  return {
+    type: 'MINUS_ONE'
+  }
 }
