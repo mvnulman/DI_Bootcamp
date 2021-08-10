@@ -1,14 +1,8 @@
+export const SEARCH_TEXT = 'SEARCH_TEXT';
 
-export const addOne = () => {
-  console.log('ADD_ONE');
+export const search = ( text ) => {
   return {
-    type: 'ADD_ONE'
-  }
-}
-
-export const minusOne = () => {
-  console.log('MINUS_ONE');
-  return {
-    type: 'MINUS_ONE'
+    type: SEARCH_TEXT,
+    payload: text
   }
 }

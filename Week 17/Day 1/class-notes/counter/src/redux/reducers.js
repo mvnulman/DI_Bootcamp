@@ -1,29 +1,13 @@
-import { combineReducers } from 'redux';
-
-let initState = {
-  counter: 0,
+import { SEARCH_TEXT } from "./actions"
+const initSearch = {
+  searchText: ''
 }
 
-export const reducer_minus = (state=initState,action={}) => {
+export const searchReducer = (state = initSearch, action={}) => {
   switch (action.type) {
-    case 'MINUS_ONE':
-      return {...state, counter: state.counter - 1 }
-    default:
-      return {...state}
+    case SEARCH_TEXT:
+      return {...state, searchText:action.payload}
   }
+  return {...state}
 }
-
-export const reducer_plus = (state=initState,action={}) => {
-  switch (action.type) {
-    case 'ADD_ONE':
-      return {...state, counter: state.counter + 1 }
-    default:
-      return {...state}
-  }
 }
-
-
-export const reducer = combineReducers({
-  reducer_plus,
-  reducer_minus
-})
